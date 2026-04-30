@@ -1,0 +1,46 @@
+# ------------------------------------
+# OS / System files
+# ------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------
+# OneDrive / sync artifacts
+# ------------------------------------
+*.tmp
+*.lnk
+*.lock
+~$*
+
+# ------------------------------------
+# SQL Server artifacts (NEVER commit)
+# ------------------------------------
+*.bak
+*.trn
+*.mdf
+*.ldf
+
+# SSMS autosave / backup files
+*.sql~
+*.sql.bak
+
+# ------------------------------------
+# Logs / output files
+# ------------------------------------
+*.log
+*.out
+
+# ------------------------------------
+# Editor / IDE settings
+# ------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------
+# Credentials / secrets (absolute no)
+# ------------------------------------
+*.env
+*.secret
+*password*
+*credential*
